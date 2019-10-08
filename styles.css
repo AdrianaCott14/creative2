@@ -8,14 +8,12 @@
 
 /*Maroon/black? - #1D0E04*/
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+/*Light Olive green - #465E16*/
+
+/*Light light yellow - #FEFAED*/
 
 body {
-  background-color: #F1F2F5;
+  background-color: #FEFAED;
   color: #3F1508;
 }
 
@@ -27,6 +25,12 @@ p {
 h1, h2 {
   font-family: 'Merriweather', serif;
   color:#1D0E04;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  
 }
 
 .header {
@@ -60,7 +64,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #7B7766;
+  background-color: #465E16;
 }
 
 .button {
