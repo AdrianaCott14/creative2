@@ -21,12 +21,19 @@ body {
 
 p {
   font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+h1, h2 {
+  font-family: 'Merriweather', serif;
+  color:#1D0E04;
 }
 
 .header {
   padding: 30px;
   text-align: center;
   background: #f9c006;
+  margin-bottom: 50px;
 }
 
 .header h1 {
@@ -36,8 +43,29 @@ p {
   font-family: 'Merriweather', serif;
 }
 
+.header p {
+   font-weight: bold;
+}
+
+input[type=submit] {
+  width: 25%;
+  background-color: #5C4520;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+input[type=submit]:hover {
+  background-color: #7B7766;
+}
+
 .button {
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .footer {
