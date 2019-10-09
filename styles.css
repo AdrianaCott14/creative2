@@ -1,26 +1,79 @@
-/*Gold - #F9C40E*/
+/*Gold - #f9c006*/
+
 /*Saddle brown - #3F1508*/
+
 /*Dark olive green - #5C4520*/
+
 /*Dim gray - #7B7766*/
+
 /*Maroon/black? - #1D0E04*/
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+/*Light Olive green - #465E16*/
+
+/*Light light yellow - #FEFAED*/
+
 body {
-    background-color: #F9C40E;
+  background-color: #FEFAED;
+  color: #3F1508;
 }
 
-/* Header/Blog Title */
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+h1, h2 {
+  font-family: 'Merriweather', serif;
+  color:#1D0E04;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  
+}
+
 .header {
   padding: 30px;
   text-align: center;
-  background: white;
+  background: #f9c006;
+  margin-bottom: 50px;
 }
 
 .header h1 {
   font-size: 50px;
+  color:#1D0E04;
+  text-shadow: 1px 1px darkgrey;
+  font-family: 'Merriweather', serif;
 }
 
+.header p {
+   font-weight: bold;
+}
+
+input[type=submit] {
+  width: 25%;
+  background-color: #5C4520;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+input[type=submit]:hover {
+  background-color: #465E16;
+}
+
+.button {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.footer {
+  padding: 10px;
+  text-align: right;
+  background: #f9c006;
+}
